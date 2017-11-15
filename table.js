@@ -1,4 +1,4 @@
 function temperatureConverter(valNum) {
-  valNum = parseFloat(valNum);
-  document.getElementById("outputCelsius").innerHTML=(valNum-32)/1.8;
+  var parsedNum = parseFloat(valNum);
+  document.getElementById("outputCelsius").innerHTML=(parsedNum-32)/1.8;
 }
